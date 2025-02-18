@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import singerImage from './img/a.jpeg'; // Ajuste para o caminho correto
+import singerImageA from './img/a.jpeg'; // Ajuste para o caminho correto
+
 
 export function About() {
   return (
@@ -13,7 +14,7 @@ export function About() {
             transition={{ duration: 0.8 }}
           >
             <img
-              src={singerImage} // Usando o import da imagem
+              src={singerImageA} // Usando o import da imagem
               alt="Gospel Singer"
               className="rounded-2xl shadow-2xl"
             />

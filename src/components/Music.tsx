@@ -1,14 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Play, Heart, Share2 } from 'lucide-react';
-import singerImage from './img/b.jpeg'; // Corrigido o import
+import singerImageB from './img/b.jpeg'; // Corrigido o import
 
 export function Music() {
   const songs = [
     {
       title: "Tua Graça Me Basta",
       duration: "4:35",
-      image: singerImage, // Corrigido para referenciar a variável diretamente
+      image: singerImageB, // Corrigido para referenciar a variável diretamente
     },
     {
       title: "Em Tua Presença",
